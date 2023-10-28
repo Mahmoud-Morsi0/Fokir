@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Fokir</title>
+    <link href="https://fonts.googleapis.com/css2?family=Contrail+One&family=Kalam:wght@300;400;700&family=Roboto:wght@300;400;500;700&family=Source+Sans+3:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Contrail+One&family=Kalam:wght@300;400;700&family=Roboto:wght@300;400;500;700&family=Source+Sans+3:wght@300;700&display=swap" rel="stylesheet">    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div id="home">
+        <div class="black-z"></div>
+        <nav id="nav">
+            <div class="nav-logo">
+                <h1>Fokir</h1>
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <li class="home-link"><a href="index.html">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Portfolio</a></li>
+                    <li><a href="">Testimonial</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+            <div class="clear-fix"></div>
+           </nav>
+           <div class="contaner">
+            <div class="home">
+                <h3>Hello i'm</h3>
+                <h1>ALEX SMITH</h1>
+                <p>professional web <span id="swap">developer</span>
+                    <script>
+                      var emotions = ["developer", "designer"];
+                      var currentIndex = 0;
+                  
+                      function changeEmotion() {
+                        var emotionElement = document.getElementById("swap");
+                        emotionElement.innerHTML = emotions[currentIndex];
+                        currentIndex = (currentIndex + 1) % emotions.length;
+                      }
+                  
+                      setInterval(changeEmotion, 1000); 
+                    </script>
+                      </p>
+                </p>
+            </div>
+        </div>
+    </div>
+    <main>
+      <div class="contaner">
+        <section id="about">
+            <div class="img-contaner">
+                    <div class="about-img">
+                        <img src="imag/about.jpg" alt="img">  
+                </div>
+                
+                
+
+            </div>
+            <div class="about-contant">
+                <h1>HELLO,</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <hr>
+                <div class="profile-about">
+                    <ul class="ul-profile">
+                        <li class="li-profile"><span>Name:</span>"Morsi"</li>
+                        <li class="li-profile"><span>Job Title: </span>"UI/UX Designer"</li>
+                        <li class="li-profile"><span>Age: </span>"25 years"</li>
+                        <li class="li-profile"><span>Location: </span>"Cairo"</li>
+                        <li class="li-profile"><span>Freelance: </span>"Available"</li>
+                        <li class="li-profile"><span>E-mail: </span>"example@gmail.com"</li>
+                    </ul>
+                </div>
+                <div class="download-cv">
+                    <button >Download CV <img src="imag/Untitled design.png" alt="download-cv"></button>
+                    <button class="hire-button">Hire Me <img src="imag/Untitled design (1).png" alt="Hire-me"></button>
+                    
+                </div>
+            </div>
+            <div class="clear-fix"></div>
+            <!-- <div class="profile-about">
+                <ul class="ul-profile">
+                    <li class="li-profile"><span>Name:</span>"Morsi"</li>
+                    <li class="li-profile"><span>Job Title: </span>"UI/UX Designer"</li>
+                    <li class="li-profile"><span>Age: </span>"25 years"</li>
+                    <li class="li-profile"><span>Location: </span>"Cairo"</li>
+                    <li class="li-profile"><span>Freelance: </span>"Available"</li>
+                    <li class="li-profile"><span>E-mail: </span>"example@gmail.com"</li>
+                </ul>
+            </div> -->
+    
+        </section>
+        <section id="services"></section>
+        <section id="portfolio"></section>
+        <section id="testimonial"></section>
+        <section id="blog"></section>
+        <section id="contact"></section>
+
+
+
+      </div>
+    </main>
+   
+    
+   
+</body>
+</html>
